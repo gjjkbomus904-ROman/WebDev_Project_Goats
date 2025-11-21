@@ -144,7 +144,6 @@ body {
 /* Main Section */
 .main {
   text-align: center;
-  background-image: url('../photos/csm_Gletscherfeeling_Moelltaler_0801_b5dd612600.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1257,3 +1256,4 @@ textarea {
     font-size: 0.9rem;
   }
 }
+
