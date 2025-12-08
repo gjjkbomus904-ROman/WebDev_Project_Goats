@@ -3,43 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Profile</title>
+  <title>Short list</title>
   <link rel="stylesheet" href="../css/stylee.css">
   <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body class="body">
   <header class="header">
     <a class="nav-link home" href="../index.html"><img src="../photos/icon.png" alt="home" class="home-icon"></a>
     <nav class="nav">
-      <button id="accessibility-btn" class="accessibility-btn"><img class ="eye" src="../photos/5219439.png" alt="eye"></button>
+      <button id="accessibility-btn" class="accessibility-btn"><img class="eye" src="../photos/5219439.png" alt="eye"></button>
       <a class="nav-link" href="../pages/about2.html">About us</a>
       <a class="nav-link" href="../pages/contact2.html">Contact us</a>
       <a class="nav-link" href="../pages/catalog.html">Destinations</a>
       <a class="nav-link" href="../pages/blog.html">Blog</a>
       <a class="nav-link" href="../pages/shortlist.html">Your Shortlist</a>
-      <a class="nav-link" href="../pages/login.html">Logout</a>
       <a class="profile-home" href="../pages/profile.html">
-        <img src="../photos/user.png" alt="profile" class="home-profile-alt"></a>
+        <img src="../photos/user.png" alt="profile" class="home-profile-alt">
+      </a>
     </nav>
   </header>
 
-  <main class="profile-container">
-    <h1>Welcome back!</h1>
-    <p id="userName"></p>
-    <img id="avatarDisplay" style="width:100px; border-radius:50%; margin:20px 0;" alt="avatar">
-    <button id="logoutBtn">Logout</button>
+  <main>
+      <section class="shortlist">
+    <div class="shortlist-overlay"></div>
 
-    <section class="cta">
-    <h2>Access to your shortlist.</h2>
-    <p>Now you're available to access your shortlist. </p>
-    <p><a class="btn" href="../pages/shortlist.html">Your Shortlist</a></p>
+    <div class="shortlist-content">
+      <h1 class="textmain">YOUR SHORTLIST</h1>
+    </div>
   </section>
+
+
+  
+
+  <section class="cta">
+    <h2>Do you have any questions?</h2>
+    <p>Send us your request and we'll make your holidays like a dream.</p>
+    <p><a class="btn" href="../pages/contact2.html">Request a Quote</a></p>
+  </section>
+
+
   </main>
 
-
-
   <footer class="footer">
-    <footer class="footer">
     <div class="footer-container">
       <a href="#top"><img src="../photos/SnowPeak.png" class="footer-logo-img" alt="logo"></a>
       <div class="footer-middle">
@@ -53,6 +59,7 @@
           </ul>
         </div>
       </div>
+
       <div class="footer-middle">
         <div class="footer-column">
           <h2 class="footer-title">About Us</h2>
@@ -65,7 +72,6 @@
         </div>
       </div>
 
-      <!-- CONTACT -->
       <div class="footer-column footer-contact-block">
         <h2 class="footer-title">Contact Us</h2>
         <p class="footer-contact">Email: snowpeaksupport@skietour.com</p>
@@ -73,16 +79,26 @@
         <p class="footer-contact">United States: +8 (800) 555 3535</p>
       </div>
     </div>
-    <div class ="underline">
+
+    <div class="underline">
       <p class="footer-bottom">© 2024 SnowPeak. All rights reserved.</p>
       <div class="footer-social">
-          <div class="insta"><a href="https://www.instagram.com/yurmanovych1?igsh=eDNiZWkxOTlzZHBq" target="_blank" class="footer-social-icon"><img src="../photos/icons8-instagram-48.png" alt="insta"></a></div>
-          <div class="insta"><a href="https://www.instagram.com/yurmanovych1?igsh=eDNiZWkxOTlzZHBq" target="_blank" class="footer-social-icon"><img src="../photos/icons8-instagram-48.png" alt="insta"></a></div>
-          <div class="insta"><a href="https://www.instagram.com/yurmanovych1?igsh=eDNiZWkxOTlzZHBq" target="_blank" class="footer-social-icon"><img src="../photos/icons8-instagram-48.png" alt="insta"></a></div>
+        <div class="insta">
+          <a href="https://www.instagram.com/yurmanovych1" target="_blank" class="footer-social-icon">
+            <img src="../photos/icons8-instagram-48.png" alt="insta">
+          </a>
+        </div>
       </div>
     </div>
   </footer>
+
   <script src="../java/accessibility.js"></script>
-  <script src="../java/profile.js"></script>
+  <script>
+    const savedAvatar = localStorage.getItem('avatar');
+    const profileIcon = document.querySelector('.home-profile-alt');
+    if (savedAvatar && profileIcon) {
+      profileIcon.src = savedAvatar;
+    }
+  </script>
 </body>
 </html>
