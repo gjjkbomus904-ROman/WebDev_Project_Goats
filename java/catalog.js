@@ -147,7 +147,7 @@ const sampleProducts = {
     price: 210,
     group: "Hotels",
     country: "usa",
-    img: "../catalog/15.webp",
+    img: "../catalog/15.jpg",
     date: "18 December 2025"
   },
   {
@@ -357,7 +357,7 @@ const sampleProducts = {
     price: 120,
     group: "Hotels",
     country: "canada",
-    img: "./catalog/4c.jpg",
+    img: "../catalog/4c.jpg",
     date: "22 December 2025"
   },
   {
@@ -479,7 +479,328 @@ const sampleProducts = {
     country: "canada",
     img: "../catalog/16c.jpg",
     date: "20 December 2025"
-  }
+  },
+  {
+  id: 49,
+  title: "Aman Le Mélézin",
+  subtitle: "Courchevel 1850, French Alps",
+  price: 240,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/1e.webp",
+  date: "12 December 2025"
+},
+{
+  id: 50,
+  title: "Hotel Barrière Les Neiges",
+  subtitle: "Courchevel 1650, French Alps",
+  price: 220,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/2e.jpg",
+  date: "13 December 2025"
+},
+{
+  id: 51,
+  title: "Hotel Aurelio Lech",
+  subtitle: "Lech, Austria (Arlberg)",
+  price: 210,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/3e.jpg",
+  date: "14 December 2025"
+},
+{
+  id: 52,
+  title: "Hotel Hochgurgl",
+  subtitle: "Hochgurgl‑Obergurgl, Austria",
+  price: 190,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/4e.jpg",
+  date: "15 December 2025"
+},
+{
+  id: 53,
+  title: "Bear Lodge",
+  subtitle: "Les Arcs, French Alps",
+  price: 180,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/5e.jpg",
+  date: "16 December 2025"
+},
+{
+  id: 54,
+  title: "Tschuggen Grand Hotel",
+  subtitle: "Arosa, Switzerland",
+  price: 230,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/6e.jpg",
+  date: "17 December 2025"
+},
+{
+  id: 55,
+  title: "CERVO Mountain Resort",
+  subtitle: "Zermatt, Switzerland",
+  price: 260,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/7e.jpg",
+  date: "18 December 2025"
+},
+{
+  id: 56,
+  title: "Berghotel Schatzalp",
+  subtitle: "Davos, Switzerland",
+  price: 200,
+  group: "Hotels",
+  country: "europe",
+  img: "https://mnd-assets.mynewsdesk.com/image/upload/c_fill,dpr_auto,f_auto,g_auto,q_auto:good,w_746/vdkxm1jy8eekqnd129s1l2.jpg",
+  date: "19 December 2025"
+},
+{
+  id: 57,
+  title: "Hotel Rosa Alpina",
+  subtitle: "San Cassiano, Dolomites, Italy",
+  price: 220,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/8e.jpg",
+  date: "20 December 2025"
+},
+{
+  id: 58,
+  title: "Hotel Alpenhof***Superior",
+  subtitle: "Mayrhofen, Zillertal, Austria",
+  price: 160,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/9e.jpg",
+  date: "21 December 2025"
+},
+{
+  id: 59,
+  title: "Hotel Cristiania",
+  subtitle: "Selva di Val Gardena, Dolomites, Italy",
+  price: 200,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/10e.jpg",
+  date: "22 December 2025"
+},
+{
+  id: 60,
+  title: "Hotel La Sivolière",
+  subtitle: "Val d’Isère, French Alps",
+  price: 210,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/11e.jpg",
+  date: "23 December 2025"
+},
+{
+  id: 61,
+  title: "Sporthotel Teresa",
+  subtitle: "Selva di Val Gardena, Dolomites, Italy",
+  price: 170,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/12e.jpeg",
+  date: "24 December 2025"
+},
+{
+  id: 62,
+  title: "Hotel Baita Montana",
+  subtitle: "Cortina d’Ampezzo, Dolomites, Italy",
+  price: 190,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/13e.jpg",
+  date: "25 December 2025"
+},
+{
+  id: 63,
+  title: "Hotel Mont Tremblant",
+  subtitle: "Val Thorens, French Alps",
+  price: 200,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/14e.jpg",
+  date: "26 December 2025"
+},
+{
+  id: 64,
+  title: "Hotel Cäslatschina",
+  subtitle: "Laax, Switzerland",
+  price: 180,
+  group: "Hotels",
+  country: "europe",
+  img: "../catalog/15e.jpg",
+  date: "27 December 2025"
+},
+{
+  id: 65,
+  title: "Niseko Alpine Lodge",
+  subtitle: "Niseko, Hokkaido",
+  price: 150,
+  group: "Hotels",
+  country: "japan",
+  img: "https://d1c8h3rkrc6r31.cloudfront.net/exterior/Skye-Niseko-Winter-Exterior-28.jpg",
+  date: "12 December 2025"
+},
+{
+  id: 66,
+  title: "Ski Helmet Pro",
+  subtitle: "Furano, Hokkaido",
+  price: 80,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/1jh.avif",
+  date: "14 December 2025"
+},
+{
+  id: 67,
+  title: "Snow Jacket",
+  subtitle: "Hakuba, Nagano",
+  price: 110,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/2jh.jpg",
+  date: "17 December 2025"
+},
+{
+  id: 68,
+  title: "The Kiroro Resort",
+  subtitle: "Kiroro, Hokkaido",
+  price: 95,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/3jh.jpg",
+  date: "18 December 2025"
+},
+{
+  id: 69,
+  title: "The Prince Hotel",
+  subtitle: "Shiga Kogen, Nagano",
+  price: 130,
+  group: "Hotels",
+  country: "japan",
+  img: "https://japanspecialists.com/assets/img/thumbs/accommodations/mount-shiga/_1200x630_crop_center-center_82_none/hotel-mount-shiga-01-exterior_171006_163653.jpg?mtime=1618417558",
+  date: "19 December 2025"
+},
+{
+  id: 70,
+  title: "Hotel Green Plaza",
+  subtitle: "Joetsu Kokusai, Niigata",
+  price: 120,
+  group: "Hotels",
+  country: "japan",
+  img: "https://www.powderhounds.com/site/DefaultSite/filesystem/images/Japan/JoetsuKokusai/Overview/01.jpg",
+  date: "24 December 2025"
+},
+{
+  id: 71,
+  title: "Mountain Backpack",
+  subtitle: "Myoko Kogen, Niigata",
+  price: 115,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/4jh.jpg",
+  date: "25 December 2025"
+},
+{
+  id: 72,
+  title: "Ski Helmet Pro",
+  subtitle: "Nozawa Onsen, Nagano",
+  price: 90,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/5jh.jpg",
+  date: "15 December 2025"
+},
+{
+  id: 73,
+  title: "The Vale Niseko",
+  subtitle: "Kutchan, Hokkaido",
+  price: 220,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/6jh.jpg",
+  date: "11 December 2025"
+},
+{
+  id: 74,
+  title: "Ski Goggles Ultra",
+  subtitle: "Zao Onsen, Yamagata",
+  price: 70,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/7jh.jpg",
+  date: "22 December 2025"
+},
+{
+  id: 75,
+  title: "ANA Holiday Inn Resort",
+  subtitle: "Appi Kogen, Iwate",
+  price: 180,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/8jh.jpg",
+  date: "21 December 2025"
+},
+{
+  id: 76,
+  title: "Hilton Niseko Village",
+  subtitle: "Niseko Village, Hokkaido",
+  price: 200,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/9jh.webp",
+  date: "14 December 2025"
+},
+{
+  id: 77,
+  title: "Mountain Backpack",
+  subtitle: "Madarao Kogen, Nagano",
+  price: 120,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/10jh.jpg",
+  date: "16 December 2025"
+},
+{
+  id: 78,
+  title: "Okushiga Kogen Hotel",
+  subtitle: "Yamanouchi, Nagano",
+  price: 90,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/11jh.jpg",
+  date: "17 December 2025"
+},
+{
+  id: 79,
+  title: "Alpico Plaza Hotel",
+  subtitle: "Matsumoto, Nagano",
+  price: 210,
+  group: "Hotels",
+  country: "japan",
+  img: "../catalog/12jh.jpg",
+  date: "18 December 2025"
+},
+{
+  id: 80,
+  title: "Ryokan Tamayura",
+  subtitle: "Yuzawa, Niigata",
+  price: 85,
+  group: "Hotels",
+  country: "japan",
+  img: "https://enjoyniigata.com/image/rendering/feature_image/154/trim.1680/12/5",
+  date: "13 December 2025"
+}
+
 ],
   Destinations: [
   {
@@ -1189,4 +1510,29 @@ document.getElementById('perpage').addEventListener('change', () => {
   renderProducts();
 });
 
+function applyURLParams() {
+  const params = new URLSearchParams(window.location.search);
+
+  // --- ГРУППА ---
+  const group = params.get("group");
+  if (group && groups.includes(group)) {
+    activeGroup = group;
+
+    headerOptions.forEach(el => {
+      el.classList.toggle("active", el.dataset.group === group);
+    });
+  }
+
+  // --- ФИЛЬТР СТРАНЫ ---
+  const filter = params.get("filter");
+  if (filter) {
+    currentCountryFilter = filter;
+
+    document.querySelectorAll(".pill").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.filter === filter);
+    });
+  }
+}
+
+applyURLParams();
 renderProducts();
