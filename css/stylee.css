@@ -526,45 +526,6 @@ textarea {
   }
 }
 
-/*shortlist*/
-
-.shortlist-intro {
-  text-align: center;
-  padding: 60px 20px 40px;
-}
-.shortlist {
-  position: relative;
-  background: url('../photos/takibihexatarpArtboard1_1.webp') center/cover no-repeat;
-  background-position: 40% 32.5%;
-  padding: 90px 20px;
-  border-radius: 20px;
-  color: #fff;
-  text-align: center;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-  overflow: hidden; /* оверлей не вылезает за края */
-}
-
-.shortlist-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.65);
-  z-index: 1; /* под текстом */
-}
-
-.shortlist-content {
-  position: relative;
-  z-index: 2; /* поверх оверлея */
-}
-.shortlist-intro h1 {
-  font-size: 3rem;
-  color: #17304f;
-  margin-bottom: 15px;
-  font-weight: 800px;
-  font-family: "Inter", Arial, sans-serif;
-}
-
-
-
 /*articles*/
 
 
@@ -689,4 +650,5 @@ textarea {
 .button-blog:active {
     transform: translateY(0);
     box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+
 }
